@@ -5,7 +5,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
 }
 group = 'com.timurniz4mov.winterapocalypse'
-version = '1.0.0'
+version = '1.1.0'
 base { archivesName = 'winter_apocalypse' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 minecraft {
@@ -17,6 +17,9 @@ minecraft {
         server { args '--nogui' }
     }
 }
-repositories {}
+repositories {
+    maven { url = 'https://maven.minecraftforge.net' }
+    mavenCentral()
+}
 dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.2.0' }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

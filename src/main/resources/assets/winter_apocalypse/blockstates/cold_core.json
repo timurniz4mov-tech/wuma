@@ -1,1 +1,16 @@
-{"variants":{"":{"model":"winter_apocalypse:block/cold_core"}}}
+{
+  "variants": {
+    "slowdown=0": {
+      "model": "winter_apocalypse:block/cold_core"
+    },
+    "slowdown=1": {
+      "model": "winter_apocalypse:block/cold_core"
+    },
+    "slowdown=2": {
+      "model": "winter_apocalypse:block/cold_core"
+    },
+    "slowdown=3": {
+      "model": "winter_apocalypse:block/cold_core"
+    }
+  }
+}

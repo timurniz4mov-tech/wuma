@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="MIT"
 [[mods]]
 modId="winter_apocalypse"
-version="1.0.0"
+version="1.1.0"
 displayName="Winter Apocalypse"
 description='''A spreading cold core slowly freezes the world.'''
 [[dependencies.winter_apocalypse]]

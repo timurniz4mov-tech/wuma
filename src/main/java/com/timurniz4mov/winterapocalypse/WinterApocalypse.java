@@ -1,6 +1,7 @@
 package com.timurniz4mov.winterapocalypse;
 
 import com.mojang.logging.LogUtils;
+import com.timurniz4mov.winterapocalypse.entity.ModEntities;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -15,5 +16,7 @@ public class WinterApocalypse {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModBlocks.BLOCKS.register(bus);
         ModBlocks.ITEMS.register(bus);
+        ModItems.ITEMS.register(bus);
+        ModEntities.TYPES.register(bus);
     }
 }

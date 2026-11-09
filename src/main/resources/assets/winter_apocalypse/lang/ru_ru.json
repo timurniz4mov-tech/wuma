@@ -1,4 +1,16 @@
 {
   "block.winter_apocalypse.cold_core": "Ядро холода",
-  "item.winter_apocalypse.cold_core": "Ядро холода"
+  "block.winter_apocalypse.winter_heater": "Зимняя печь",
+  "item.winter_apocalypse.cold_core": "Ядро холода",
+  "item.winter_apocalypse.winter_heater": "Зимняя печь",
+  "item.winter_apocalypse.warm_fur_helmet": "Меховая шапка",
+  "item.winter_apocalypse.warm_fur_chestplate": "Меховая куртка",
+  "item.winter_apocalypse.warm_fur_leggings": "Меховые штаны",
+  "item.winter_apocalypse.warm_fur_boots": "Меховые сапоги",
+  "item.winter_apocalypse.arctic_helmet": "Арктический шлем",
+  "item.winter_apocalypse.arctic_chestplate": "Арктическая куртка",
+  "item.winter_apocalypse.arctic_leggings": "Арктические штаны",
+  "item.winter_apocalypse.arctic_boots": "Арктические сапоги",
+  "item.winter_apocalypse.cold_seal": "Печать замедления холода",
+  "item.winter_apocalypse.frost_crystal": "Морозный кристалл"
 }

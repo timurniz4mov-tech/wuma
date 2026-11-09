@@ -1,4 +1,16 @@
 {
   "block.winter_apocalypse.cold_core": "Cold Core",
-  "item.winter_apocalypse.cold_core": "Cold Core"
+  "block.winter_apocalypse.winter_heater": "Winter Heater",
+  "item.winter_apocalypse.cold_core": "Cold Core",
+  "item.winter_apocalypse.winter_heater": "Winter Heater",
+  "item.winter_apocalypse.warm_fur_helmet": "Warm Fur Hood",
+  "item.winter_apocalypse.warm_fur_chestplate": "Warm Fur Coat",
+  "item.winter_apocalypse.warm_fur_leggings": "Warm Fur Trousers",
+  "item.winter_apocalypse.warm_fur_boots": "Warm Fur Boots",
+  "item.winter_apocalypse.arctic_helmet": "Arctic Helmet",
+  "item.winter_apocalypse.arctic_chestplate": "Arctic Coat",
+  "item.winter_apocalypse.arctic_leggings": "Arctic Trousers",
+  "item.winter_apocalypse.arctic_boots": "Arctic Boots",
+  "item.winter_apocalypse.cold_seal": "Cold Seal",
+  "item.winter_apocalypse.frost_crystal": "Frost Crystal"
 }
