@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="winter_apocalypse"
+version="1.0.0"
+displayName="Winter Apocalypse"
+description='''A spreading cold core slowly freezes the world.'''
+[[dependencies.winter_apocalypse]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.winter_apocalypse]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

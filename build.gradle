@@ -1,0 +1,22 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+group = 'com.timurniz4mov.winterapocalypse'
+version = '1.0.0'
+base { archivesName = 'winter_apocalypse' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+    runs {
+        configureEach { workingDirectory project.file('run'); property 'forge.logging.console.level', 'info'; mods { winter_apocalypse { source sourceSets.main } } }
+        client {}
+        server { args '--nogui' }
+    }
+}
+repositories {}
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.2.0' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
